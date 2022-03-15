@@ -4,7 +4,10 @@
     width:1200px;
     margin:0 auto;
 }
+/* display:flex 후 flex:1하면 모두같은비율로 가로로 배치된다.
+자식 하나를 골라 x로 설정할경우 x만큼 비중이 올라감. */
 .content .container figure {
+    /* relative 기준이 된다 absolute 가있으면 relative에 붙음. */
     position: relative;
     flex:1;
     padding:0 15px;
@@ -16,7 +19,7 @@
 
 
 .sec01 figure a {
-    
+    /* absolute 좌표를 준다 기준이 없으면 제일부모한테 붙는다. */
     position: absolute;
     top:50%;
     left: 50%;
@@ -30,10 +33,10 @@
 
     background: #333;
     color: #fff;
-
+    
     transition: 0.5s;
 
-    /* opacity 투명도, display:none-diplay:block생겼다 사라진다.,visibility:hidden;visibility:visible;보였다 안보인다 */
+    /* opacity 투명도, display:none-diplay:block생겼다 사라진다(중간단계가없어서 사이 시간을 못넣음),visibility:hidden;visibility:visible;보였다 안보인다 */
 }
 .sec01 figure:hover a {
     opacity:1;
@@ -66,10 +69,13 @@
     opacity: 0;
     transition: 0.5s;
 }
-
+/* hover은 커서를 올렸을때 반응? */
 .sec02 .inner:hover a {
+    /* hover로 opacity:0에서1로 반응하게 만들어 나타나게함. */
     opacity:1;
 }
+
+
 
 .sec03 .inner {
     position: relative;
@@ -89,7 +95,7 @@
 }
 
 .sec03 .inner:hover a {
-
+    /* calc 계산기 */
     top: calc(100% - 50px);
 }
 
