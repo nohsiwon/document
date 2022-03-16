@@ -1,6 +1,10 @@
 .headerWrap {
-    display: none;
     background:#f00;
+}
+
+
+.headerWrap .container {
+    display: none;
     color: #fff;
     padding: 50px 0;
 }
@@ -14,6 +18,36 @@
     background: #f2f2f2;
 }
 
+.topBannerToggle {
+    position:relative;
+    width: 1200px;
+    margin:0 auto;
+}
+.topBannerToggle .inner {
+    position: absolute;
+    right:0;
+    top:0;
+    padding:10px ;
+    color: #fff;
+    background: #f00;
+    width:120px;
+    border-radius:0 0 5px 5px;
+}
+.topBannerToggle .inner::after {
+    content:"OPEN";
+}
+.topBannerToggle .inner.active::after {
+    content:"CLOSE";
+}
+.topBannerToggle .inner i {
+    padding: 3px;
+    background: #333;
+    border-radius: 50%;
+    transition:0.5;
+}
+.topBannerToggle .inner.active i {
+    transform: rotate(180deg);
+}
 .tabMenu .container {
     width:600px;
     margin: 0 auto;
@@ -21,12 +55,23 @@
 
 .tabMenu .tabLink {
     display:flex;
+  border-bottom: 1px solid #333;
 }
 .tabMenu .tabLink li {
     flex:1;
+    line-height: 50px;
+    border-bottom:1px solid transparent;
+    transform: translateY(1px);
+    
+    text-align: center;
 }
 
 .tabMenu .tabLink li.active {
+    border-bottom:1px solid #fff;
+    border-right:1px solid #333;
+    border-left:1px solid #333;
+    border-top:1px solid #333;
+    background: #fff;
     color:#f00;
 }
 
@@ -48,8 +93,4 @@
     font-weight:100;
     letter-spacing:3em;
     margin-bottom: 30px;
-}
-.xi-close {
-    position: absolute;
-    left:80%;
 }
