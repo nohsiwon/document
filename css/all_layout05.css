@@ -1,0 +1,55 @@
+.headerWrap {
+    display: none;
+    background:#f00;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.headerWrap .container {
+    width:1200px;
+    margin:0 auto;
+}
+.tabMenu {
+    padding:100px 0;
+    background: #f2f2f2;
+}
+
+.tabMenu .container {
+    width:600px;
+    margin: 0 auto;
+}
+
+.tabMenu .tabLink {
+    display:flex;
+}
+.tabMenu .tabLink li {
+    flex:1;
+}
+
+.tabMenu .tabLink li.active {
+    color:#f00;
+}
+
+.tabMenu .tabContent>div {
+    display: none;
+}
+
+.tabMenu .tabContent>div.active {
+    display: block;
+}
+.bgFixed {
+    padding: 200px 0;
+    text-align:center;
+    color: #fff;
+    background: url(../img/main_slider_n05.jpg) no-repeat fixed center center/cover;
+}
+.bgFixed h2 {
+    font-size: 15px;
+    font-weight:100;
+    letter-spacing:3em;
+    margin-bottom: 30px;
+}
+.xi-close {
+    position: absolute;
+    left:80%;
+}
