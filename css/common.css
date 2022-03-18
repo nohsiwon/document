@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 
@@ -6,3 +6,8 @@
 ul,ol {list-style:none;}
 a {text-decoration:none;}
 body {line-height:1;font-family: 'Noto Sans KR', sans-serif;}
+img {max-width:100%;vertical-align: middle;}
+
+button {
+    font-family: 'Noto Sans KR', sans-serif;
+}
