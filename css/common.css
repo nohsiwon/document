@@ -6,6 +6,6 @@
 ul,ol {list-style:none;}
 a {text-decoration:none;}
 body {line-height:1;font-family: 'Noto Sans KR', sans-serif;}
-img {vertical-align:middle;}
+img {vertical-align:middle;width:100%;}
 button {
     font-family: 'Noto Sans KR', sans-serif;}
