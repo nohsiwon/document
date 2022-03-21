@@ -1,4 +1,6 @@
-.Wrap {}
+.Wrap img {
+    width: 100%;
+}
 
 
 
@@ -673,4 +675,17 @@
     overflow: hidden;
 }
 
-.customerArea .tabContent span {}
+.customerArea .container>div a:hover+i {
+    opacity: 1;
+    animation: heart 1s infinite;
+}
+
+.customerArea .container>div i {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    color: #f00;
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
