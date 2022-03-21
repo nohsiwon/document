@@ -4,8 +4,8 @@
 
 /* topBanner : noh 2022.03.17 최종수정 */
 .topBanner {
-    padding:24px 0;
-    background:#f3f3f3;
+    padding: 24px 0;
+    background: #f3f3f3;
 }
 
 .topBanner .container {
@@ -14,6 +14,7 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .topBanner .container h2 {
 
     margin-bottom: 10px;
@@ -26,22 +27,25 @@
 
     margin-bottom: 10px;
     font-size: 16px;
+    /* Noto sans 100,300,400,500,700,900 */
     font-weight: 300;
+    /* 자간 */
     letter-spacing: -0.025em;
 }
 
 .topBanner .container a {
     margin-left: 20px;
     padding: 3px 20px;
-    border:1px solid #333;
+    border: 1px solid #333;
     font-size: 13px;
     font-weight: 300;
     text-transform: uppercase;
 }
+
 .topBanner .container i {
     position: absolute;
-    top:0;
-    right:15px;
+    top: 0;
+    right: 15px;
     font-size: 24px;
     cursor: pointer;
 }
@@ -51,9 +55,7 @@
 
 /* { header : noh 2022.03.17 최종수정 */
 
-.headerWrap {
-
-}
+.headerWrap {}
 
 .headerWrap .container {
     display: flex;
@@ -70,24 +72,24 @@
     margin-left: auto;
 }
 
-.gnb {
-
-}
+.gnb {}
 
 .gnb>ul {
     display: flex;
-    
+
 }
+
 .gnb>ul>li {
     position: relative;
     padding: 0 20px;
 }
 
+/* absolute 띄울것, relative 띄운것을 잡을것 없으면 제일부모한테감 */
 .gnb>ul>li~li::after {
     content: "";
     position: absolute;
-    top:50%;
-    left:0;
+    top: 50%;
+    left: 0;
     transform: translateY(-50%);
     display: block;
     width: 2px;
@@ -100,9 +102,9 @@
 } */
 
 .headerWrap .searchForm input[type="search"] {
-    padding:3px 0;
-    outline:none;
-    border:none;
+    padding: 3px 0;
+    outline: none;
+    border: none;
     border-bottom: 1px solid#333;
 }
 
@@ -110,18 +112,21 @@
     color: rgb(177, 178, 250);
     font-size: 13px;
 }
+
 .headerWrap .searchForm input[type="search"]:focus::placeholder {
     color: transparent;
 }
 
 .headerWrap .searchForm button {
-    outline:none;
-    border:none;
+    outline: none;
+    border: none;
     background: transparent;
 }
+
 .headerWrap .searchForm button i {
     font-size: 15px;
-    color:#fff;;
+    color: #fff;
+    ;
     background: #333;
     padding: 10px;
     border-radius: 50%;
@@ -154,11 +159,25 @@
 }
 
 @keyframes heart {
-    0% {transform: scale(1);}
-    20% {transform: scale(0.5);}
-    50% {transform: scale(1);}
-    70% {transform: scale(0.5);}
-    100% {transform: scale(1);}
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .mainVisual .visualSlide .msLeft {
@@ -197,7 +216,8 @@
     padding: 0 15px;
     color: #fff;
 }
-.mainVisual .visualSlide figure.itm02 .inner{
+
+.mainVisual .visualSlide figure.itm02 .inner {
     color: #333;
 }
 
@@ -308,13 +328,14 @@
 
 .mainProduct .container figure {
     position: relative;
-    flex:1;
+    flex: 1;
     padding: 0 15px;
 }
 
 .mainProduct .container figure .inner {
     margin-bottom: 15px;
 }
+
 .mainProduct .container figure strong {
     display: block;
     margin-bottom: 10px;
@@ -324,7 +345,7 @@
     display: inline-block;
     padding: 10px 30px;
     background: #333;
-    color: #fff;    
+    color: #fff;
 }
 
 .mainProduct .container figure a:hover {
@@ -347,7 +368,7 @@
 .mainProduct .container figure .label {
     position: absolute;
     top: -10px;
-    right:0;
+    right: 0;
     border-top: 10px solid #f00;
     border-left: 50px solid #f00;
     border-bottom: 10px solid #f00;
@@ -356,17 +377,17 @@
 
 .mainProduct .container figure .label span {
     position: absolute;
-    top:-6px;
-    left:-45px;
+    top: -6px;
+    left: -45px;
     color: #fff;
 
     font-size: 14px;
 }
 
 .eventBanner {
-    padding:  100px 0;
+    padding: 100px 0;
 
-    background: url(../images/mainvisual01.jpg) no-repeat fixed center center/cover ;
+    background: url(../images/mainvisual01.jpg) no-repeat fixed center center/cover;
     text-align: center;
     color: #fff;
     filter: grayscale(1);
@@ -402,17 +423,18 @@
     width: 1200px;
     margin: 0 auto;
 }
+
 .eventProduct .container>div {
     text-align: center;
     padding: 0 15px;
 }
 
 .eventProduct .left {
-    width:40%;
+    width: 40%;
 }
 
 .eventProduct .eProductSlide {
-    border:5px solid #ddd;
+    border: 5px solid #ddd;
     padding: 5px;
 }
 
@@ -420,7 +442,7 @@
     display: flex;
     align-items: center;
 
-    width:60%
+    width: 60%
 }
 
 .eventProduct h3 {
@@ -441,14 +463,14 @@
     padding: 13px;
     background: #333;
     color: #fff;
-    border-radius:7px;
+    border-radius: 7px;
     margin: 0 5px;
 }
 
 .allProduct {
     position: relative;
     padding: 100px 0;
-    text-align:center;
+    text-align: center;
     background: #f2f2f2;
 }
 
@@ -477,19 +499,19 @@
 }
 
 .allProduct .inner {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
-.allProduct .inner + strong {
+.allProduct .inner+strong {
     display: block;
     font-size: 13px;
-    font-weight:300;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
 .allProduct .slick-dots {
     display: flex;
-    gap:10px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -498,8 +520,8 @@
 }
 
 .allProduct .slick-dots li {
-    width:13px;
-    height: 13px;  
+    width: 13px;
+    height: 13px;
     background: #333;
     border-radius: 50%;
 }
@@ -510,18 +532,145 @@
 
 .allProduct i {
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 10px;
     font-size: 30px;
     color: #fff;
     background: #333;
 }
+
 .allProduct i:first-child {
-    margin-left:-700px;
+    margin-left: -700px;
 }
 
 .allProduct i:last-child {
-    margin-left:700px;
+    margin-left: 700px;
 }
+
+.movieBg {
+    padding: 200px 0;
+    background: #000;
+    filter: grayscale(1);
+
+    color: #fff;
+    text-align: center;
+}
+
+.movieBg h3 {
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0.20em;
+    margin-bottom: 10px;
+}
+
+.movieBg p {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    margin-bottom: 30px;
+}
+
+.movieBg i {
+    font-size: 28px;
+    padding: 10px;
+    background: #333;
+    border-radius: 10px;
+}
+
+
+.customerArea {
+    padding: 100px 0;
+    background: #f2f2f2;
+}
+
+
+.customerArea .container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.customerArea .container>div {
+    position: relative;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.customerArea .container>div .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: yellowgreen;
+    border: 3px solid yellowgreen;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.customerArea .container>div .btn:hover {
+    background: white;
+    color: #000;
+    border: 3px solid yellowgreen;
+    border-radius: 20px;
+}
+
+.customerArea .container>div img {
+    filter: grayscale(1);
+}
+
+.customerArea .container>div:hover img {
+    filter: none;
+}
+
+
+.customerArea .tabMenu {
+    display: flex;
+}
+
+.customerArea .tabMenu>li {
+    flex: 1;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.customerArea .tabMenu>li.oo {
+    background: #369;
+
+}
+
+.customerArea .tabMenu>li~li {
+    border-left: 1px solid #fff;
+}
+
+.customerArea .tabContent>div {
+    display: none;
+}
+
+.customerArea .tabContent>div.oo {
+    display: block;
+}
+
+.customerArea .tabContent a {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.customerArea .tabContent strong {
+    display: block;
+    width: 400px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.customerArea .tabContent span {}
