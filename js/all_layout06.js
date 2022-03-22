@@ -72,7 +72,7 @@ $(function () {
 
 
   jQuery("#bgndVideo").YTPlayer({
-    videoURL: 'HUFsu-hegW8',
+    videoURL: 'm0N4MTPGJRk',
     containment: '.movieBg',
     autoPlay: true,
     mute: true,
@@ -96,8 +96,9 @@ $(function () {
     $('.tabContent>div').eq(idx).addClass('oo').siblings().removeClass('oo')
   });
 
-
-
+  $('.popup01 button').on('click', function () {
+    $(this).parent().hide();
+  });
 
 
 
