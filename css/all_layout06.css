@@ -7,7 +7,8 @@
 /* topBanner : noh 2022.03.17 최종수정 */
 .topBanner {
     padding: 24px 0;
-    background: rgb(167, 31, 31)
+    background: rgb(255, 53, 53);
+    color: #fff
 }
 
 .topBanner .container {
@@ -38,7 +39,7 @@
 .topBanner .container a {
     margin-left: 20px;
     padding: 3px 20px;
-    border: 1px solid #333;
+    border: 1px solid #fff;
     font-size: 13px;
     font-weight: 300;
     text-transform: uppercase;
@@ -116,7 +117,7 @@
 }
 
 .headerWrap .searchForm input[type="search"]::placeholder {
-    color: rgb(177, 178, 250);
+    color: #000;
     font-size: 13px;
 }
 
@@ -412,7 +413,6 @@
     background: url(../image/fixed.jpg) no-repeat fixed center center/cover;
     text-align: center;
     color: #fff;
-    filter: grayscale(1);
 }
 
 .eventBanner h2 {
@@ -430,7 +430,7 @@
 
 .eventBanner i {
     padding: 7px;
-    background: #333;
+    background: #f00;
     border-radius: 50%;
     margin-left: 15px;
 }
@@ -560,7 +560,7 @@
     padding: 10px;
     font-size: 30px;
     color: #fff;
-    background: #333;
+    background: #f00;
 }
 
 .allProduct i:first-child {
@@ -712,13 +712,13 @@
 }
 
 .footerWrap {
-    background: #333;
+    background: rgb(255, 53, 53);
     color: #f2f2f2;
     line-height: 60px;
 }
 
 .footerWrap .top {
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 .footerWrap .container {
@@ -769,7 +769,7 @@
 }
 
 .footerWrap .link select {
-    background: #333;
+    background: rgb(255, 53, 53);
     font-size: 15px;
     padding: 4px 10px;
     outline: none;
@@ -802,7 +802,7 @@
     background: #f00;
     color: #fff;
     text-transform: uppercase;
-    font-size: 14pxs;
+    font-size: 14px;
 }
 
 
