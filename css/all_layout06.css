@@ -234,7 +234,7 @@
 }
 
 .mainVisual .visualSlide figure.itm02 .inner {
-    color: #333;
+    color: #fff;
 }
 
 .mainVisual .visualSlide figure .inner h3 {
@@ -290,9 +290,10 @@
 
 .mainVisual .visualSlide .slick-dots li {
     width: 100px;
-    height: 5px;
+    height: 10px;
     background: #333;
     transition: 2s;
+    border-radius: 5px;
 }
 
 .mainVisual .visualSlide .slick-dots li::after {
@@ -300,6 +301,7 @@
     display: block;
     width: 0;
     height: 100%;
+    border-radius: 5px;
     background: #f00;
 }
 
