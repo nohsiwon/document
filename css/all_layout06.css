@@ -81,13 +81,17 @@
     margin-left: auto;
 }
 
-.gnb {}
+.gnb {
+    margin: 0 auto;
+}
 
 .gnb>ul {
     display: flex;
 }
 
 .gnb>ul>li {
+    width: 142px;
+    text-align: center;
     position: relative;
     padding: 0 20px;
 }
