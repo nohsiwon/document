@@ -134,7 +134,6 @@
 .headerWrap .searchForm button i {
     font-size: 15px;
     color: #fff;
-    ;
     background: #F00;
     padding: 10px;
     border-radius: 50%;
@@ -784,7 +783,7 @@
 
 .popup01 {
     position: absolute;
-    inset: 50% auto auto 50%;
+    inset: 50% auto auto 72%;
     transform: translate(-50%, -50%);
     border: 3px solid#ddd;
     padding: 30px;
