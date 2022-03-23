@@ -262,11 +262,11 @@
 }
 
 .mainVisual .visualSlide .itm02 {
-    background: url(../image/01bc48ba7b42630dd5bf84ab97aef294_1564962979_8742.jpg) no-repeat center center/cover;
+    background: url(../image/20210430102655.png) no-repeat center center/cover;
 }
 
 .mainVisual .visualSlide .itm03 {
-    background: url(../image/about1_pic1.jpg) no-repeat center/cover;
+    background: url(../image/about1_pic2.jpg) no-repeat center/cover;
 }
 
 .mainVisual .visualSlide .slick-dots {
@@ -793,3 +793,24 @@
     text-transform: uppercase;
     font-size: 14pxs;
 }
+
+
+.toTop {
+    position: fixed;
+    inset: auto 50px 100px auto;
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+;
+
+.toTop i {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
+;
