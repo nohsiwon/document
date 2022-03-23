@@ -27,9 +27,9 @@ $(function () {
   $('.visualSlide').on('afterChange', function (e, s, c) {
     $('.visualSlide figure').eq(c + 1).addClass('oo').siblings().removeClass('oo');
     if (c === 1) {
-      $('.msLeft').addClass('oo')
+      $('.msLeft, .msRight').addClass('oo')
     } else {
-      $('.msLeft').removeClass('oo')
+      $('.msLeft, .msRight').removeClass('oo')
     }
   });
 
