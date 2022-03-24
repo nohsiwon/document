@@ -471,21 +471,21 @@
 }
 
 .eventProduct h3 {
-    font-size: 23px;
+    font-size: 27px;
     font-weight: 700;
     letter-spacing: 0;
     margin-bottom: 10px;
 }
 
 .eventProduct p {
-    font-size: 19px;
+    font-size: 23px;
     font-weight: 300;
     letter-spacing: -0.020em;
     margin-bottom: 30px;
 }
 
 .eventProduct i {
-    font-size: 21px;
+    font-size: 29px;
     padding: 10px;
     background: #F00;
     color: #fff;
