@@ -1,6 +1,4 @@
-.Wrap img {
-    width: 100%;
-}
+.Wrap img {}
 
 
 
@@ -58,7 +56,9 @@
 
 /* { header : noh 2022.03.17 최종수정 */
 
-.headerWrap {}
+.headerWrap {
+    margin: 15px;
+}
 
 .headerWrap .container {
     display: flex;
@@ -329,14 +329,14 @@
 }
 
 .mainProduct h2 {
-    font-size: 21px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 700;
     letter-spacing: 0.20em;
     margin-bottom: 10px;
 }
 
 .mainProduct p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     letter-spacing: -0.025em;
     margin-bottom: 30px;
@@ -419,13 +419,13 @@
 }
 
 .eventBanner h2 {
-    font-size: 21px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .eventBanner p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     letter-spacing: -0.025em;
     margin-bottom: 30px;
@@ -471,16 +471,16 @@
 }
 
 .eventProduct h3 {
-    font-size: 21px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 700;
     letter-spacing: 0;
     margin-bottom: 10px;
 }
 
 .eventProduct p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.020em;
     margin-bottom: 30px;
 }
 
@@ -501,14 +501,14 @@
 }
 
 .allProduct h3 {
-    font-size: 21px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 700;
     letter-spacing: 0.20em;
     margin-bottom: 10px;
 }
 
 .allProduct p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     letter-spacing: -0.025em;
     margin-bottom: 30px;
@@ -579,24 +579,23 @@
 .movieBg {
     padding: 200px 0;
     background: #000;
-
     color: #fff;
     text-align: center;
 }
 
 .movieBg h3 {
-    font-size: 21px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 700;
     margin-bottom: 10px;
-    color: #000;
+    color: rgb(255, 51, 0);
 }
 
 .movieBg p {
-    font-size: 17px;
-    font-weight: 300;
-    letter-spacing: -0.025em;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.020em;
     margin-bottom: 30px;
-    color: #000;
+    color: rgb(255, 51, 0);
 }
 
 .movieBg i {
