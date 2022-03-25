@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기본으로 돌아가기 09</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        #subPage {
+            letter-spacing: -0.025em;
+        }
+
+        #subPage .info__content {
+            padding: 100px 0;
+        }
+
+        #subPage .info__content h2 {
+            font-size: 23px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        #subPage .info__content h2::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: #333;
+            margin: 15px auto;
+        }
+
+        #subPage .info__content>p {
+            font-size: 15px;
+            font-weight: 300;
+            text-align: center;
+            margin: 0 0 50px 0;
+        }
+
+        #subPage .info__content .fixed__bg {
+            padding: 150px 0;
+            background: url(../images/mainvisual01.jpg) no-repeat fixed center center/cover;
+            text-align: center;
+            color: #fff;
+            filter: grayscale(1);
+        }
+
+        #subPage .info__content .fixed__bg strong {
+            display: block;
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 7px 0;
+        }
+
+        #subPage .info__content .fixed__bg p {
+            font-size: 15px;
+            font-weight: 300;
+        }
+
+        #subPage .info__content .container {
+            display: flex;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        #subPage .info__content .itm {
+            position: relative;
+            flex: 1;
+            padding: 70px 15px;
+        }
+
+        #subPage .info__content .itm h3 {
+            font-size: 21px;
+            font-weight: 900;
+            text-align: center;
+            margin: 0 0 30px 0;
+        }
+
+        #subPage .info__content .itm i {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            color: #fff;
+            padding: 20px;
+            border-radius: 50%;
+            transition: 1s;
+        }
+
+        #subPage .info__content .itm:hover i {
+            transform: translate(-50%, -50%)rotateY(360deg);
+        }
+
+        #subPage .info__content .itm:nth-child(1) i {
+            background: #dc3545;
+        }
+
+        #subPage .info__content .itm:nth-child(2) i {
+            background: #fd7e14;
+        }
+
+        #subPage .info__content .itm:nth-child(3) i {
+            background: #ffc107;
+        }
+
+        #subPage .info__content .dot__list li {
+            position: relative;
+            padding: 5px 15px;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.4;
+        }
+
+        #subPage .info__content .dot__list li::before {
+            content: "";
+            position: absolute;
+            top: 13px;
+            left: 0;
+            width: 5px;
+            height: 5px;
+            background: #dc3545;
+            margin-right: 10px;
+        }
+
+        #subPage .info__event {
+            padding: 100px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        #subPage .info__event h2 {
+            font-size: 23px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        #subPage .info__event h2::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: #333;
+            margin: 15px auto;
+        }
+
+        #subPage .info__event>p {
+            font-size: 15px;
+            font-weight: 300;
+            text-align: center;
+            margin: 0 0 50px 0;
+        }
+
+        #subPage .info__event .bg__box {
+            background: linear-gradient(to top, #dc3545 70%, transparent 30%)
+        }
+
+        #subPage .info__event .bg__box .container {
+            display: flex;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        #subPage .info__event .bg__box .container>div {
+            flex: 1;
+            padding: 15px 15px;
+        }
+
+        #subPage .info__event .bg__box .txt {
+            border: 2px solid #333;
+            background: #fff;
+            padding: 30px 15px;
+        }
+
+        #subPage .info__event .bg__box .txt h3 {
+            font-size: 17px;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+        }
+
+        #subPage .info__event .bg__box .txt p {
+            height: 200px;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Wrap">
+        <header>
+            header
+        </header>
+
+        <article id="subPage">
+            <section class="info__content">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda excepturi quam?</p>
+                <div class="fixed__bg">
+                    <strong>" Lorem ipsum dolor sit amet. "</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda excepturi quam?</p>
+                </div>
+                <div class="container">
+                    <div class="itm">
+                        <i class="xi-kakaotalk"></i>
+                        <h3>Lorem, ipsum.</h3>
+                        <ul class="dot__list">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam cum nemo tenetur
+                                illo consequuntur sunt nobis fugit!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. e.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</li>
+                        </ul>
+                    </div>
+                    <div class="itm">
+                        <i class="xi-instagram"></i>
+                        <h3>Lorem, ipsum.</h3>
+                        <ul class="dot__list">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam cum nemo tenetur
+                                illo consequuntur sunt nobis fugit!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        </ul>
+                    </div>
+                    <div class="itm">
+                        <i class="xi-facebook"></i>
+                        <h3>Lorem, ipsum.</h3>
+                        <ul class="dot__list">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. N</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam cum nemo tenetur
+                                illo consequuntur sunt nobis fugit!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info__event">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda excepturi quam?</p>
+                <div class="bg__box">
+                    <div class="container">
+                        <div class="itm">
+                            <div class="txt">
+                                <h3>Lorem, ipsum.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet magni ab omnis?</p>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="txt">
+                                <h3>Lorem, ipsum.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet magni ab omnis?</p>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="txt">
+                                <h3>Lorem, ipsum.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet magni ab omnis?</p>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="txt">
+                                <h3>Lorem, ipsum.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet magni ab omnis?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <footer>
+            &copy; noh.
+        </footer>
+    </div>
+</body>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script>
+    $(function () {
+
+        $('.subPage .hositalContent a').on('click', function () {
+            $(this).parent().toggleClass('on')
+        })
+
+    })
+</script>
+
+</html>
